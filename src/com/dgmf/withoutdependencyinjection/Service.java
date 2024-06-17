@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.withoutdependencyinjection;
 
 public class Service {
     public Service() {

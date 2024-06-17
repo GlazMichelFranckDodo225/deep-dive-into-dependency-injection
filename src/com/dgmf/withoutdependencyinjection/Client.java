@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.withoutdependencyinjection;
 
 // The Client Class Contains a Service Member Variable
 // Initialized in Its Constructor.
