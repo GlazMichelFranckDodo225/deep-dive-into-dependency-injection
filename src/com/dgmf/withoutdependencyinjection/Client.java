@@ -1,5 +1,7 @@
 package com.dgmf.withoutdependencyinjection;
 
+import com.dgmf.service.Service;
+
 // The Client Class Contains a Service Member Variable
 // Initialized in Its Constructor.
 public class Client {
