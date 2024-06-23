@@ -1,7 +1,12 @@
-import com.dgmf.withoutdependencyinjection.Client;
+import com.dgmf.constructordi.ClientWithConstructorDI;
+import com.dgmf.service.Service;
+import com.dgmf.withoutdi.ClientWithoutDI;
 
 public class Main {
     public static void main(String[] args) {
-        Client client = new Client();
+        ClientWithoutDI clientWithoutDI =
+                new ClientWithoutDI();
+        ClientWithConstructorDI clientWithConstructorDI =
+                new ClientWithConstructorDI(new Service());
     }
 }
